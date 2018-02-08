@@ -3,5 +3,6 @@
 Have the following in `.vimrc`:
 
 ```bash
-autocmd BufRead * call LoadSkeleton() 
+runtime path/to/java-boilerplate.vim
+autocmd BufNewFile * call LoadSkeleton() 
 ```
